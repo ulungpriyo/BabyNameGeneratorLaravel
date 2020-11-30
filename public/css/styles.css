@@ -1,0 +1,307 @@
+html{
+	scroll-behavior: smooth;
+}
+
+
+/* Home */
+
+.navbar {
+	font-size: 25px;
+	transition: all 300ms ease;
+	-webkit-transition: all 300ms ease;
+	position: fixed;
+	border-color: lightpink;
+	box-shadow: 0 0 8px 0 lightpink;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	color: #FF67A5;
+}
+
+
+.navbar-nav a:hover{
+	background-color: #FF67A5;
+	color: #FFFFFF;
+}
+
+.navbar-nav a{
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 20px;
+	color: #FF67A5;
+	text-decoration : none;
+}
+
+.navbar-nav{
+	margin-left: 50%;
+}
+
+.jumbotron {
+	background-image: url('../img/jumbo4.jpeg');
+	background-size: cover;
+	padding: 10px;
+	}
+
+.jumbotron h3 {
+	padding-top: 200px;
+	margin-right: 250px;
+	font-size: 50px;
+}
+
+.jumbotron p {
+	padding-right: 50%;
+	font-size : 24px;
+}
+
+.jumbotron .btn {
+	background-color: #FF67A5;
+	border-color: lightpink;
+	box-shadow: 0 0 8px 0 lightpink;
+	font-family: 'Norwester', arial;
+	border-radius: 20px;
+
+}
+
+
+.jumbotron .btn-more {
+	background-color: #000000;
+	border-color: #000000;
+	font-family: 'Kanit', sans-serif;
+	border-radius: 20px;
+	display: inline-block;
+	transform-origin: 50% 50% -30px;
+  	transition: all .2s ease;
+  	backface-visibility: hidden;
+}
+
+/* Second Section */
+
+.bgsecond {
+	background-image: url('../img/jumbo5.jpeg');
+	display:block;
+	border-radius: 160px;
+}
+
+#second {
+	font-family: 'Kanit', sans-serif; 
+}
+
+#second p {
+	font-size: 20px;
+}
+
+#second li {
+	font-size: 15px;
+}
+
+/* Three */
+
+.hr-three {
+  border: 5px solid #aaaaaa;
+  border-radius: 5px;
+}
+
+
+#three {
+	font-family: 'Kanit', sans-serif;
+	font-size: 25px;
+	text-align: center;
+}
+
+.topthree {
+	padding-top: 25px;
+}
+
+/* About */
+
+.container .gambarAbout {
+	margin-top: 100px;
+}
+
+div .tentangkamiAbout {
+	margin-top: 150px;
+}
+
+.aboutText {
+	font-family: 'Josefin Sans', sans-serif; 
+	font-size: 20px
+}
+
+.bawahanAbout {
+	background-color: #080808;
+	width: 100%;
+	height: 550px;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.bawahanAbout .hubungiKami {
+	font-size: 40px;
+}
+
+div .penjelasanAbout {
+	font-size: 17px;
+}
+
+
+/* Generate CSS */
+
+h1 {
+	padding-top: 80px;
+}
+
+.btn-copy {
+	color: white;
+	background-color: #FF67A5;
+	border-color: lightpink;
+	box-shadow: 0 0 8px 0 lightpink;
+}
+
+.btn-reset {
+	color: white;
+	background-color: #6F73B6;
+	border-color: #6F73B6;
+	box-shadow: 0 0 8px 0 #6F73B6;
+}
+
+/* News CSS */
+.content-row{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+   box-shadow: black;
+}
+
+.content-row1{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+
+
+
+.right-col{
+  margin-left: 50px;
+  padding-bottom: 120px;
+  font-style: 'Roboto', sans-serif;
+}
+.left-col, .right-col{
+  flex-basis: 50%;
+  box-shadow: 50px;
+}
+
+.left-col{
+  padding: 50px 0;
+
+}
+.left-col .gambar{
+  width: 100%;
+}
+@keyframes img{
+  from {opacity: 0;}
+  to{opacity: 1;}
+}
+
+
+
+.right-col h1{
+	font-size: 20px;
+}
+
+.right-col h2{
+	font-size: 30px;
+}
+
+.right-col p{
+	font-size: 20px;
+}
+
+.judul-tentang {
+ 	font-size: 40px;
+ }
+ .left-col1,.center-col1,.right-col1{
+  flex-basis: 33%;
+}
+ }
+ .left-col1{
+  padding: 50px 0;
+}
+ .gambar1{
+  width: 100%;
+  height: 150px;
+}
+.jarak_column{
+	column-count: 3;
+	column-gap: 30px;
+}
+
+  .left-col1 h2{
+	font-size: 30px;
+}
+.left-col1 h1{
+	padding-top: 10px;
+	text-align: left;
+	font-size: 20px;
+}
+.left-col1 p{
+	font-size: 20px;
+}
+.center-col1 {
+	width: 100%;
+	height: 
+}
+.baca2{
+		font-size: 30px;
+
+
+}
+.container1 {
+  height: 100%;
+  width: 100%;
+  position: relative;
+
+  box-shadow: black;
+  }
+
+.gambar2 {
+	width: 50%;
+	align-items: center;
+
+}
+.gambar-artikel .gambar{
+	width: 50%;
+	}
+.gambar-artikel img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.content-artikel{
+  width: 50%;
+  display: flex;
+  margin: auto;
+  background-size: cover;
+}
+.text-artikel{
+  margin: 30px;
+  color: black;
+  text-align: left;
+}
+.text-artikel li{
+  padding-top: 20px;
+  color: black;
+   list-style-type: circle;
+
+}
+
+/* Carousel Index CSS */
+.slider{
+	width: 50%;
+	align-items: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
